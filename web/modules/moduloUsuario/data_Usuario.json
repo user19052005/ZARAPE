@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "usuario1", 
+        "contraseña": "11",
+        "estatus": "Activo"
+    },
+    {
+        "nombre": "Erick", 
+        "contraseña": "JGTP0021",
+        "estatus": "Activo"
+    },
+    {
+        "nombre": "Gilberto", 
+        "contraseña": "KKcz671",
+        "estatus": "Activo"
+    },
+    {
+        "nombre": "Daniel", 
+        "contraseña": "15689",
+        "estatus": "Activo"
+    }
+]

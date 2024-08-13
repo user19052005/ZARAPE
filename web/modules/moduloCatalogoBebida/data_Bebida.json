@@ -1,0 +1,58 @@
+[
+    {
+        "numero_unico": "8b01",
+        "nombre": "Coca-Cola",  
+        "estatus": "Activo",
+        "precio": "20",
+        "descripcion": "Refresco de cola clásico, servido frío.",
+        "categoria": "Refresco"
+    },
+    {
+        "nombre": "Sprite",  
+        "numero_unico": "8b02",
+        "estatus": "Activo",
+        "precio": "20",
+        "descripcion": "Refresco de limón, sin cafeína.",
+        "categoria": "Refresco"
+    },
+    {
+        "nombre": "Fanta",  
+        "numero_unico": "8b03",
+        "estatus": "Activo",
+        "precio": "20",
+        "descripcion": "Refresco de naranja, sabor único.",
+        "categoria": "Refresco"
+    },
+    {
+        "nombre": "Horchata",  
+        "numero_unico": "8b04",
+        "estatus": "Activo",
+        "precio": "25",
+        "descripcion": "Refrescante bebida de arroz con canela.",
+        "categoria": "Agua de Sabor"
+    },
+    {
+        "nombre": "Jamaica",  
+        "numero_unico": "8b05",
+        "estatus": "Activo",
+        "precio": "25",
+        "descripcion": "Agua de flor de jamaica, refrescante y natural.",
+        "categoria": "Agua de Sabor"
+    },
+    {
+        "nombre": "Capuccino",  
+        "numero_unico": "8b06",
+        "estatus": "Activo",
+        "precio": "35",
+        "descripcion": "Café con leche y espuma, ideal para las mañanas.",
+        "categoria": "Café"
+    },
+    {
+        "nombre": "Americano",  
+        "numero_unico": "8b07",
+        "estatus": "Activo",
+        "precio": "30",
+        "descripcion": "Café americano, servido caliente.",
+        "categoria": "Café"
+    }
+]

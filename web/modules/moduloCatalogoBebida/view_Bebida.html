@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestión de Bebidas</title>
+        <link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css"/> 
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> 
+        <link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+        <style>
+            .food-image {
+                width: 100%;
+                height: auto;
+            }
+            body {
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .navbar {
+                background-color: #BBCF4A;
+            }
+
+            .navbar-brand, .nav-link {
+                color: #fff !important;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            .navbar-nav .nav-link:hover {
+                color: #2C3E50 !important;
+            }
+
+            .dropdown-menu {
+                background-color: #BBCF4A;
+            }
+
+            .dropdown-item {
+                color: #2C3E50;
+                font-weight: 400;
+            }
+
+            .dropdown-item:hover {
+                background-color: #A2B838;
+                color: #fff;
+            }
+
+            footer {
+                background-color: #BBCF4A;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+
+            <nav class="navbar navbar-expand-sm mb-4 fixed-top">
+        <a class="navbar-brand" href="#">Restaurant El Zarape</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../login/restaurante.html" onclick="cargarModuloSucursal();">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../moduloSucursal/view_Sucursal.html">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../moduloUsuario/view_Usuario.html">Usuarios</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Productos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../moduloCatalogoAlimento/view_Alimento.html" >Alimento</a></li>
+                        <li><a class="dropdown-item"  href="../moduloCombo/view_Combo.html">Combos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+        </nav>
+
+        <div class="container mt-5">
+            <h1 class="text-center mb-4">Gestión de Bebidas</h1>
+
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/Coca.jpg" alt="Coca-Cola" style="width:345px; height: 170px; padding-left: 5px; padding-top:5px"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Coca-Cola</h5>
+                            <p class="card-text">Refresco de cola clásico, servido frío.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/horcha2-FotoJet.jpg" alt="Horchata" style="width:345px; height: 170px; padding-left: 5px; padding-top:5px">
+                        <div class="card-body">
+                            <h5 class="card-title">Horchata</h5>
+                            <p class="card-text">Refrescante bebida de arroz con canela.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/cafe.jpeg" alt="Café Americano" style="width:345px; height: 170px; padding-left: 5px; padding-top:5px">
+                        <div class="card-body">
+                            <h5 class="card-title">Café</h5>
+                            <p class="card-text">Café americano, servido caliente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/Sprite.jpg" alt="Sprite" style="width:345px; height: 170px; padding-left: 5px; padding-top:5px">
+                        <div class="card-body">
+                            <h5 class="card-title">Sprite</h5>
+                            <p class="card-text">Refresco de limón, sin cafeína.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/15252.jpg.jpg" alt="Jamaica" style="width:345px; height: 170px; padding-left: 5px; padding-top:5px">
+                        <div class="card-body">
+                            <h5 class="card-title">Jamaica</h5>
+                            <p class="card-text">Agua de flor de jamaica, refrescante y natural.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/capuccino.jpg" alt="Capuccino" style="width:345px; height: 170px; padding-left: 5px; padding-top:5px">
+                        <div class="card-body">
+                            <h5 class="card-title">Capuccino</h5>
+                            <p class="card-text">Café con leche y espuma, ideal para las mañanas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid row d-flex justify-content-md-center" style="margin-top: 50px">
+            <div class="card col-lg-5 m-4 p-4">
+                <h2 class="text-center">Gestión de Bebidas</h2>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="txtNumUnico" class="mt-2">Número único de Bebida</label>
+                        <input id="txtNumUnico" type="text" class="mt-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtNombre" class="mt-2">Nombre de la Bebida:</label>
+                        <input id="txtNombre" type="text" class="mt-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtDescripcion" class="mt-2">Descripción de la Bebida:</label>
+                        <input id="txtDescripcion" type="text" class="mt-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtCategoria" class="mt-2">Categoría:</label>
+                        <input id="txtCategoria" type="text" class="mt-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtPrecio" class="mt-2">Precio:</label>
+                        <input id="txtPrecio" type="number" class="mt-2">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around mt-2">
+                    <button class="mt-2 btn btn-success btn-lg" onclick="moduloBebida.addBebida();" id="btnAdd">Registrar</button>
+                    <button class="mt-2 btn btn-info btn-lg" onclick="moduloBebida.clean();" id="btnClean">Limpiar</button>
+                    <button class="mt-2 btn btn-warning btn-lg disabled" onclick="moduloBebida.updateBebida();" id="btnUpdate">Actualizar</button>
+                    <button class="mt-2 btn btn-danger btn-lg disabled" onclick="moduloBebida.deleteBebida();" id="btnDelete">Eliminar</button>
+                </div>
+            </div>
+            <div class="card col-lg-6 p-4 m-4">
+                <div class="d-flex m-3">
+                    <label for="txtBusquedaBebida" class="form-label mx-3">Buscar Bebida:</label>
+                    <input type="text" id="txtBusquedaBebida">
+                    <button onclick="searchBebidas();" class="btn btn-secondary mx-2">Buscar</button>
+                </div>
+                <div class="container-fluid" style="overflow-y: scroll; height: 40vh">
+                    <table id="tblBebidas" class="table table-hover table-striped table-sm">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Descripción</th>
+                                <th>Categoría</th>
+                                <th>Estatus</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tblBebida"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <a href="data_Bebida.json"></a>
+        <script src="controller_Bebida.js" type="text/javascript"></script>
+        <script src="../../style/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    </body>
+</html>

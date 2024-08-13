@@ -1,0 +1,51 @@
+[
+    {
+        "nombre": "Combo sopes",  
+        "numero_unico" : "8b01",
+        "estatus": "Activo",
+        "precio": "45",
+        "descripcion": "Una orden de sopes y una Agua de Horchata de un litro por $45.",
+        "categoria": "Combo  Comida y bebida "
+    },
+    {
+        "nombre": "Combo Pozole",  
+        "numero_unico" : "8b02",
+        "estatus": "Activo",
+        "precio": "89",
+        "descripcion": "Dos Platos de pozole y dos Agua de Jamaica por $89.",
+        "categoria": "Combo Comida y bebida"
+    },
+    {
+        "nombre": "Combo de Tacos al Pastor",  
+        "numero_unico" : "8b03",
+        "estatus": "Activo",
+        "precio": "75",
+        "descripcion": "Dos Ordenes de 6 tacos al Pastor y dos coca-colas de 500ml por $75.",
+        "categoria": "Combo Comida y bebida"
+    },
+    {
+        "nombre": "Combo Enchiladas",  
+        "numero_unico" : "8b04",
+        "estatus": "Activo",
+        "precio": "67",
+        "descripcion": "Dos Ordenes de Enchiladas y dos Refrescos Sprite por $67.",
+        "categoria": "combo Comida y bebida"
+    },
+    {
+        "nombre": "Combo Guisado",  
+        "numero_unico" : "8b05",
+        "estatus": "Activo",
+        "precio": "55",
+        "descripcion": "Dos Ordenes de 5 Tacos de Guisado y dos refrescos de Manzana por $55.",
+        "categoria": "Combo de Comida y bebida"
+    },
+    {
+        "nombre": "Combo Quesadillas",  
+        "numero_unico" : "8b06",
+        "estatus": "Activo",
+        "precio": "60",
+        "descripcion": "Dos Ordenes de Quesadillas y dos vasos de Agua de Limon de un medio litro por $60.",
+        "categoria": "Combo Comida y bebida"
+    }
+    
+]

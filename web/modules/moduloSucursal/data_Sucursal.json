@@ -1,0 +1,35 @@
+[
+    {
+        "numero_unico_sucursal": "1",
+        "nombre": "Centro Max",
+        "calleYNum": "Blvd Aeropuerto",
+        "colonia": "Jardines de Jerez",
+        "telefono": "477000123",
+        "GPS": "19.4326,-99.1332",
+        "horario": "9:00 - 18:00",
+        "pagWeb": "http://sucursal1.com",
+        "estatus": "Activo"
+    },
+    {
+        "numero_unico_sucursal": "2",
+        "nombre": "Altacia",
+        "calleYNum": "Blvd Aeropuerto 104",
+        "colonia": "Cerrito de Jerez",
+        "telefono": "477000456",
+        "GPS": "569888, 665883",
+        "horario": "9:00 - 18:00",
+        "pagWeb": "http://sucursal1.com",
+        "estatus": "Activo"
+    },
+    {
+        "numero_unico_sucursal": "3",
+        "nombre": "Plaza Mayor",
+        "calleYNum": "juan Alonso de torres 2002",
+        "colonia": "Valle del campestre",
+        "telefono": "477000789",
+        "GPS": "561238, 6643283",
+        "horario": "9:00 - 18:00",
+        "pagWeb": "http://sucursal1.com",
+        "estatus": "Activo"
+    }
+]

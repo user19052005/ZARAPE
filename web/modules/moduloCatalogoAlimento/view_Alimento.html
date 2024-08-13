@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestión de Alimentos</title>
+        <link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css"/> 
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> 
+        <link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+        <style>
+            .food-image {
+                width: 100%;
+                height: auto;
+            }
+            body {
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .navbar {
+                background-color: #BBCF4A;
+            }
+
+            .navbar-brand, .nav-link {
+                color: #fff !important;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            .navbar-nav .nav-link:hover {
+                color: #2C3E50 !important;
+            }
+
+            .dropdown-menu {
+                background-color: #BBCF4A;
+            }
+
+            .dropdown-item {
+                color: #2C3E50;
+                font-weight: 400;
+            }
+
+            .dropdown-item:hover {
+                background-color: #A2B838;
+                color: #fff;
+            }
+
+            footer {
+                background-color: #BBCF4A;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-sm mb-4 fixed-top">
+            <a class="navbar-brand" href="#">Restaurant El Zarape</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../login/restaurante.html" onclick="cargarModuloSucursal();">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../moduloSucursal/view_Sucursal.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../moduloUsuario/view_Usuario.html">Usuarios</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Productos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../moduloCatalogoBebida/view_Bebida.html" >Bebidas</a></li>
+                            <li><a class="dropdown-item"  href="../moduloCombo/view_Combo.html">Combos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="container fluid">
+            <h1 class="text-center mb-4">Gestión de Alimentos</h1>
+
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/Sopes.jpg" alt="Sopes" style="width: 345px; height: 170px; padding-left: 5px; padding-top: 5px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Sopes</h5>
+                            <p class="card-text">Descripción: Consiste en una base de masa frita y se acompaña de frijoles, bistec, pastor y chorizo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/Pozole Verde.jpg" alt="Pozole Verde" style="width: 345px; height: 170px; padding-left: 5px; padding-top: 5px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Pozole Verde</h5>
+                            <p class="card-text">El pozole verde es una sopa mexicana hecha con maíz hominy, carne (generalmente pollo o cerdo)...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/Tacos de Guiso.jpg" alt="Tacos de Guisado" style="width: 345px; height: 170px; padding-left: 5px; padding-top: 5px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Tacos de Guisado</h5>
+                            <p class="card-text">Descripción: Los tacos de guisado son tacos rellenos de guisados o estofados, que pueden incluir una variedad de carnes...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/Tacos de Pastor.jpg" alt="Tacos al Pastor" style="width: 345px; height: 170px; padding-left: 5px; padding-top: 5px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Tacos al Pastor</h5>
+                            <p class="card-text">Tacos con carne de cerdo marinada, piña, cilantro y cebolla.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/Enchiladas.jpg" alt="Enchiladas" style="width: 345px; height: 170px; padding-left: 5px; padding-top: 5px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Enchiladas</h5>
+                            <p class="card-text">Tortillas rellenas de carne, pollo o queso, bañadas en salsa roja o verde.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../recursos/Quesadillas.jpg" alt="Quesadillas" style="width: 345px; height: 170px; padding-left: 5px; padding-top: 5px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Quesadillas</h5>
+                            <p class="card-text">Tortillas rellenas de queso y otros ingredientes como hongos o flor de calabaza.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid row d-flex justify-content-md-center" style="margin-top: 50px;">
+            <div class="card col-lg-5 m-4 p-4">
+                <h2 class="text-center">Gestión de Alimentos</h2>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="txtNumUnico" class="mt-2">Número único de Alimento:</label>
+                        <input id="txtNumUnico" type="text" class="form-control mt-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtNombre" class="mt-2">Nombre del Alimento:</label>
+                        <input id="txtNombre" type="text" class="form-control mt-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtDescripcion" class="mt-2">Descripción del Alimento:</label>
+                        <input id="txtDescripcion" type="text" class="form-control mt-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtCategoria" class="mt-2">Categoría:</label>
+                        <input id="txtCategoria" type="text" class="form-control mt-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtPrecio" class="mt-2">Precio:</label>
+                        <input id="txtPrecio" type="number" class="form-control mt-2">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around mt-2">
+                    <button class="mt-2 btn btn-success btn-lg" onclick="moduloAlimento.addAlimento();" id="btnAdd">Registrar</button>
+                    <button class="mt-2 btn btn-info btn-lg" onclick="moduloAlimento.clean();" id="btnClean">Limpiar</button>
+                    <button class="mt-2 btn btn-warning btn-lg disabled" onclick="moduloAlimento.updateAlimento();" id="btnUpdate">Actualizar</button>
+                    <button class="mt-2 btn btn-danger btn-lg disabled" onclick="moduloAlimento.deleteAlimento();" id="btnDelete">Eliminar</button>
+                </div>
+            </div>
+            <div class="card col-lg-6 p-4 m-4">
+                <div class="d-flex m-3">
+                    <label for="txtBusquedaAlimento" class="form-label mx-3">Buscar Alimento:</label>
+                    <input type="text" id="txtBusquedaAlimento" class="form-control">
+                    <button class="btn btn-primary mx-2" onclick="moduloAlimento.searchAlimentos();">Buscar</button>
+                </div>
+                <table class="table table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Descripción</th>
+                            <th>Categoría</th>
+                            <th>Estatus</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tblAlimento">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <a href="data_Alimento.json"></a>
+        <script src="controller_Alimento.js" type="text/javascript"></script>
+        <script src="../../style/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    </body>
+</html>

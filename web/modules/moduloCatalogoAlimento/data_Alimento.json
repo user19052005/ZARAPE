@@ -1,0 +1,48 @@
+[    
+    {
+        "numero_unico": "8d09",
+        "nombre": "Sopes",  
+        "estatus": "Activo",
+        "precio": "30",
+        "descripcion": "Consiste en una base de masa frita y se acompaña de frijoles, bistec, pastor y chorizo.",
+        "categoria": "Aceite"
+    },
+    {
+        "numero_unico": "8d10",
+        "nombre": "Pozole Verde", 
+        "precio": "30",
+        "estatus": "Activo",
+        "descripcion": "Consiste en una base de masa frita y se acompaña de frijoles, bistec, pastor y chorizo.",
+        "categoria": "Aceite"
+    },
+    {
+        "numero_unico": "8d11",
+        "nombre": "Tacos de Guisado", 
+        "precio": "30",
+        "estatus": "Activo",
+        "descripcion": "Consiste en una base de masa frita y se acompaña de frijoles, bistec, pastor y chorizo.",
+        "categoria": "Aceite"
+    },
+    {
+        "numero_unico": "8d12",
+        "nombre": "Tacos Al Pastor",
+        "precio": "30",
+        "estatus": "Activo",
+        "descripcion": "Consiste en una base de masa frita y se acompaña de frijoles, bistec, pastor y chorizo.",
+        "categoria": "Aceite"
+    },
+    {
+        "nombre": "Enchiladas",  
+        "precio": "30",
+        "estatus": "Activo",
+        "descripcion": "Consiste en una base de masa frita y se acompaña de frijoles, bistec, pastor y chorizo.",
+        "categoria": "Aceite"
+    },
+    {
+        "nombre": "Quesadillas",
+        "precio": "30",
+        "estatus": "Activo",
+        "descripcion": "Consiste en una base de masa frita y se acompaña de frijoles, bistec, pastor y chorizo.",
+        "categoria": "Aceite"
+    }
+]
